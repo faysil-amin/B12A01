@@ -125,6 +125,13 @@
 
 
 /* section three */
+.section-main-container{
+    margin: 50px 149px;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   gap: 20px;
+}
 .section-three h1{
     font-size: 42px;
     font-weight: 700;
@@ -133,7 +140,9 @@
 .section-three-container{
     height: 243px;
     max-width: 366px;
-    border: 1px solid red;
+    background-color: #F2EDED;
+    border-radius: 14px;
+    padding: 24px;
     display: flex;
     align-items: center;
     justify-content: space-between;

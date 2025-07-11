@@ -17,6 +17,11 @@
     padding: 12px 36px;
     color: white;
     border-radius: 10px;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: yellowgreen;
+    color: white;
 }
 .para{
     color: #252432;
@@ -166,4 +171,36 @@
 .section-three-id-text h6,p{
     font-size: 16px;
     color: #757575;
+}
+
+/* section four */
+.section-four-container{
+    max-width: 1140px;
+    height: 696px;
+    background-color: #F2EDED;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 137px 151px;
+    border-radius: 14px;
+}
+.section-four-text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.section-four-container h1{
+    font-size: 50px;
+    text-align: center;
+}
+.section-four-container p{
+    text-align: center;
+    font-size: 16px;
+    color: #757575;
+}
+
+.section-four img{
+    border-radius: 48px;
 }
